@@ -90,7 +90,7 @@ public:
     }
     
     Image& operator=(const Image& src){
-        return *new Image(src);
+        return *this;
     }
     
     void show(){
